@@ -14,3 +14,6 @@
   - singleton 클래스의 생성자는 private으로 되어 있다. 클래스 외부에서 생성자 호출을 금지하며 new Singleton() 코드는 오류를 발생시킨다.
   - 1개만 존재하는 singleton 클래스의 유일한 인스턴스를 얻는 기본 메서드로 getInstance()가 있다. ( getXXX()로 표기하며, static Factory Method의 일종 )
 
+## 인스턴스 생성
+  - 처음 getInstance() 메서드 호출 시 Singleton 클래스가 초기화되며, 이때 static 필드가 초기화되며 단일 인스턴스가 생성된다.
+
